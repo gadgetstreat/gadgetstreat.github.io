@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gadgets TREAT</title>
+  <meta name="description" content="Gadgets TREAT - সেরা গ্যাজেট রিভিউ ও ডিলস">
+  <style>
+    body{font-family:system-ui,Arial;margin:0;padding:0;background:#f7f7f7;color:#111}
+    header{background:#0b5cff;color:#fff;padding:18px 16px}
+    .container{max-width:1000px;margin:18px auto;padding:0 16px}
+    .hero{background:#fff;padding:20px;border-radius:10px;box-shadow:0 1px 6px rgba(0,0,0,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+    .card{background:#fff;padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
+    footer{padding:12px;text-align:center;color:#666;font-size:14px;margin-top:18px}
+    a.button{display:inline-block;padding:8px 12px;border-radius:6px;background:#0b5cff;color:#fff;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Gadgets TREAT</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>স্বাগত! নতুন গ্যাজেট রিভিউ, ডিল আর টিউটোরিয়াল</h2>
+      <p>আজকের টপ পিক: সস্তায় পাওয়া পাওয়ার ব্যাংক, বাজেটে বেস্ট হেডফোন।</p>
+      <a class="button" href="#products">Latest</a>
+    </section>
+
+    <section id="products" class="grid">
+      <article class="card">
+        <h3>Product 1</h3>
+        <p>Short description — দাম, রেটিং, লিংক ইত্যাদি।</p>
+      </article>
+      <article class="card">
+        <h3>Product 2</h3>
+        <p>Short description — দাম, রেটিং, লিংক ইত্যাদি।</p>
+      </article>
+      <article class="card">
+        <h3>Product 3</h3>
+        <p>Short description — দাম, রেটিং, লিংক ইত্যাদি।</p>
+      </article>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Gadgets TREAT — Contact: your@email.com
+    </footer>
+  </main>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
